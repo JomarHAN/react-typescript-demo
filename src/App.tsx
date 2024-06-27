@@ -1,14 +1,7 @@
 import "./App.css";
-import DomRef from "./components/ref/DomRef";
-import MutableRef from "./components/ref/MutableRef";
 
 function App() {
-  return (
-    <div className="App">
-      <DomRef />
-      <MutableRef />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
